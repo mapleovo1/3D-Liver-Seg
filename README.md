@@ -1,35 +1,19 @@
+```markdown
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.12.1%2B-orange)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 # 基于深度学习模型的3D肝脏和肝脏肿瘤分割研究
 
 本项目实现了基于改进 SE-UNet 的肝脏及肝脏肿瘤图像分割方法，适用于 3D 医学图像，目标是提升分割精度和泛化能力，特别应用于肝脏肿瘤的临床辅助诊断任务中。
 
-##  安装环境
+## 安装环境
 
 推荐使用 **Python 3.8+**，安装依赖：
 
-```bash
+
 # 安装相关依赖
+```bash
 pip install -r requirements.txt
 
-主要依赖：
-
-torch
-
-torchvision
-
-numpy
-
-scipy
-
-nibabel
-
-matplotlib
-
-scikit-learn
-
-tqdm
 
 ## 📁 数据集
 本项目基于 Kaggle 提供的 [3D Liver and Liver Tumor Segmentation 数据集](https://www.kaggle.com/datasets/gauravduttakiit/3d-liver-and-liver-tumor-segmentation/data) 进行训练与评估。
