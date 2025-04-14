@@ -19,7 +19,7 @@ pip install -r requirements.txt
 > 下载好之后放入 3Dliverdata/ 文件夹。使用 predata/ 中的数据预处理脚本进行标准化、格式转换等预处理。
 
 ## 训练模型
-python main.py
+python Train.py
 
 
 ## 模型测试
